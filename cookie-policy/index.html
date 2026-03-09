@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta name="robots" content="noindex, follow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookiebeleid | wervingswoorden.nl</title>
+    <meta name="description" content="Ontdek hoe wij cookies en vergelijkbare technologieën op onze website gebruiken.">
+    <link rel="canonical" href="https://wervingswoorden.nl/cookie-policy/">
+    {}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+        article h1{font-size:2.25rem;font-weight:900;margin:1.5rem 0 1.25rem;color:#0f172a;line-height:1.2}
+        article h2{font-size:1.75rem;font-weight:800;margin:2.5rem 0 1rem;color:#0f172a;border-left:5px solid #ef4444;padding-left:1.25rem;line-height:1.3}
+        article h3{font-size:1.4rem;font-weight:700;margin:1.75rem 0 .75rem;color:#1e293b}
+        article p{margin-bottom:1.25rem;line-height:1.8;color:#475569}
+        article ul,article ol{padding-left:1.5rem;margin-bottom:1.25rem}
+        article li{margin-bottom:.6rem;line-height:1.6;color:#475569}
+        article table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:0.95rem;background:white;box-shadow:0 1px 3px rgba(0,0,0,0.1);border-radius:8px;overflow:hidden}
+        article th{background:#f8fafc;font-weight:700;padding:1rem;border:1px solid #e2e8f0;text-align:left;color:#0f172a}
+        article td{padding:1rem;border:1px solid #e2e8f0;color:#64748b}
+        article a{color:#ef4444;text-decoration:underline;font-weight:600}
+        article figure img{border-radius:12px;box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1)}
+        article figcaption{font-size:.875rem;color:#94a3bb;margin-top:.75rem;text-align:center}
+        .hero-bg { background-color: #0f172a; background-image: radial-gradient(circle at top right, #1e293b, #0f172a); }
+        .card-number { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .animate-slide-up { animation: slideUp 0.5s ease-out forwards; }
+    </style>
+    {{{schema_json}}}
+</head>
+<body class="bg-[#fcfcfd] text-slate-900">
+
+    <!-- Age Verification Modal -->
+    <div id="age-modal" class="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/95 p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-10 text-center shadow-2xl animate-slide-up">
+            <div class="mb-6 inline-flex items-center justify-center w-20 h-20 bg-red-50 rounded-full">
+                <span class="text-red-600 text-3xl font-black">24+</span>
+            </div>
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-4">Ben je 24 jaar of ouder?</h2>
+            <p class="text-slate-600 mb-10 text-lg">Om toegang te krijgen tot onze vergelijkingen en bonussen moet je minimaal 24 jaar oud zijn. Wij promoten verantwoord gokken.</p>
+            <div class="flex flex-col gap-4">
+                <button onclick="closeModal('age-modal')" class="bg-red-600 hover:bg-red-700 text-white font-black py-4 px-8 rounded-2xl transition-all text-xl shadow-lg shadow-red-200">Ja, ik ben 24+</button>
+                <button onclick="window.location.href='https://www.google.com'" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-4 px-8 rounded-2xl transition-all">Nee, ik ben jonger</button>
+            </div>
+            <p class="mt-6 text-xs text-slate-400">Wat kost gokken jou? Stop op tijd. 18+</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center gap-2">
+                        <span class="text-2xl font-black tracking-tighter text-slate-900 uppercase italic">
+                            Wervings<span class="text-red-600">Woorden</span>
+                        </span>
+                    </a>
+                </div>
+                <nav class="hidden lg:flex space-x-10 font-bold text-sm uppercase tracking-wider">
+                    <a href="#" class="text-slate-600 hover:text-red-600 transition">Online Casino</a>
+                    <a href="#" class="text-slate-600 hover:text-red-600 transition">€10 Deposit</a>
+                    <a href="#" class="text-slate-600 hover:text-red-600 transition">Bonussen</a>
+                    <a href="#" class="text-slate-600 hover:text-red-600 transition">Gidsen</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <button class="p-2 text-slate-500 hover:text-red-600 transition"><i data-lucide="search"></i></button>
+                    <button onclick="toggleMenu()" class="lg:hidden p-2 text-slate-900"><i data-lucide="menu"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 p-6 space-y-4 shadow-xl">
+            <a href="#" class="block text-slate-900 font-bold text-lg">Online Casino</a>
+            <a href="#" class="block text-slate-900 font-bold text-lg">€10 Deposit</a>
+            <a href="#" class="block text-slate-900 font-bold text-lg">Bonussen</a>
+            <a href="#" class="block text-slate-900 font-bold text-lg">Gidsen</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white pt-16 pb-24 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 bg-red-600 text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+                <i data-lucide="award" class="w-3 h-3"></i> Update Maart 2026
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight">Beste €10 Deposit Casino's Nederland 2026</h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Begin met spelen met een kleine inzet. Wij hebben de top online casino's getest waar je al vanaf <strong>€10</strong> kunt storten en direct een bonus ontvangt.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-sm">
+                    <i data-lucide="shield-check" class="w-6 h-6 text-red-500 mx-auto mb-2"></i>
+                    <span class="text-xs font-bold block uppercase">100% Veilig</span>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-sm">
+                    <i data-lucide="zap" class="w-6 h-6 text-yellow-500 mx-auto mb-2"></i>
+                    <span class="text-xs font-bold block uppercase">Directe Uitbetaling</span>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-sm">
+                    <i data-lucide="badge-percent" class="w-6 h-6 text-green-500 mx-auto mb-2"></i>
+                    <span class="text-xs font-bold block uppercase">Hoogste Bonussen</span>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-sm">
+                    <i data-lucide="smartphone" class="w-6 h-6 text-blue-500 mx-auto mb-2"></i>
+                    <span class="text-xs font-bold block uppercase">Mobiel Vriendelijk</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="max-w-6xl mx-auto px-4 -mt-12">
+        <!-- Top Brand Cards -->
+        <div class="space-y-6 mb-20">
+            
+        </div>
+
+        <!-- Article Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-8">
+                <article class="bg-white p-6 md:p-12 rounded-3xl shadow-sm border border-slate-100">
+                    <h1>Cookiebeleid</h1>
+<p>Laatst bijgewerkt: 2026</p>
+<p>Dit Beleid legt uit hoe wervingswoorden.nl cookies en vergelijkbare technologieën gebruikt om u te herkennen wanneer u onze site bezoekt.</p>
+
+<h2>Wat Zijn Cookies?</h2>
+<p>Cookies zijn kleine gegevensbestanden die op uw computer of mobiel apparaat worden geplaatst wanneer u een website bezoekt. Ze worden veel gebruikt om websites efficiënt te laten werken.</p>
+
+<h2>Waarom Gebruiken Wij Cookies?</h2>
+<p>Wij gebruiken eigen cookies en cookies van derden om verschillende redenen. Sommige zijn noodzakelijk voor de technische werking van de Site.</p>
+
+<h2>Soorten Cookies</h2>
+<h3>Essentiële Cookies</h3>
+<p>Strikt noodzakelijk om de diensten op onze site te leveren.</p>
+<h3>Analytische Cookies</h3>
+<p>Verzamelen informatie om ons te helpen begrijpen hoe onze site wordt gebruikt.</p>
+<h3>Functionele Cookies</h3>
+<p>Stellen de site in staat uw voorkeuren te onthouden voor een gepersonaliseerde ervaring.</p>
+
+<h2>Hoe Cookies Beheren?</h2>
+<p>U kunt uw browser instellen om cookies te accepteren of te weigeren.</p>
+
+<h2>Contact</h2>
+<p>Voor vragen over het gebruik van cookies: <a href="mailto:info@wervingswoorden.nl">info@wervingswoorden.nl</a></p>
+                </article>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="lg:col-span-4 space-y-8">
+                <div class="bg-slate-900 rounded-3xl p-8 text-white sticky top-28">
+                    <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="info" class="text-red-500"></i> Waarom €10 Deposit?
+                    </h3>
+                    <ul class="space-y-4 text-sm text-slate-300">
+                        <li class="flex gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                            Lager financieel risico voor nieuwe spelers.
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                            Test verschillende casino's met een klein budget.
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                            Toegang tot volledige welkomstbonussen.
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 flex-shrink-0"></i>
+                            Perfect voor mobiele spelers onderweg.
+                        </li>
+                    </ul>
+                    <div class="mt-8 p-4 bg-white/5 rounded-2xl border border-white/10">
+                        <p class="text-xs italic text-slate-400">"Onze experts controleren dagelijks de voorwaarden van elke aanbieder om de veiligheid te garanderen."</p>
+                        <div class="mt-3 flex items-center gap-2">
+                            <div class="w-8 h-8 rounded-full bg-slate-700"></div>
+                            <span class="text-xs font-bold">Redactie WervingsWoorden</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-20 mt-24">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/" class="text-2xl font-black text-white tracking-tighter uppercase italic mb-6 block">
+                        Wervings<span class="text-red-600">Woorden</span>
+                    </a>
+                    <p class="text-sm leading-relaxed max-w-md">
+                        Wervingswoorden.nl is de autoriteit op het gebied van online gokken in Nederland. Wij bieden transparante vergelijkingen, eerlijke reviews en de laatste bonussen van legale aanbieders.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 uppercase text-xs tracking-widest">Snelle Links</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="#" class="hover:text-red-500 transition">Online Casino Reviews</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Beste Welkomstbonussen</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">iDEAL Casino's</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Verantwoord Gokken</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 uppercase text-xs tracking-widest">Informatie</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="#" class="hover:text-red-500 transition">Over Ons</a></li>
+                        <li><a href="/contacts/" class="hover:text-red-500 transition">Contact</a></li>
+                        <li><a href="/privacy-policy/" class="hover:text-red-500 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-12 border-t border-slate-900 text-center">
+                <div class="flex justify-center gap-6 mb-8 filter grayscale opacity-50">
+                    <img src="https://images.unsplash.com/photo-1596495573105-d14658c1f4e6?w=100&h=40&fit=crop" alt="KSA" class="h-8">
+                    <img src="https://images.unsplash.com/photo-1550565118-3d14293b73f7?w=100&h=40&fit=crop" alt="18+" class="h-8">
+                </div>
+                <p class="text-xs mb-4">Gokken kan verslavend zijn. Speel bewust 18+, bonussen 24+.</p>
+                <p class="text-sm">&copy; {{year}} Wervingswoorden.nl - Gemaakt voor spelers, door spelers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="fixed bottom-6 left-6 right-6 md:left-auto md:right-12 md:max-w-md bg-white border border-slate-200 p-6 rounded-3xl shadow-2xl z-[60] animate-slide-up">
+        <div class="flex gap-4">
+            <div class="bg-slate-100 p-3 rounded-2xl h-fit">
+                <i data-lucide="cookie" class="text-slate-600"></i>
+            </div>
+            <div>
+                <h5 class="font-bold text-slate-900 mb-2">Cookie Instellingen</h5>
+                <p class="text-xs text-slate-500 leading-relaxed mb-4">Wij gebruiken cookies om uw surfervaring te verbeteren en gepersonaliseerde content aan te bieden.</p>
+                <div class="flex gap-3">
+                    <button onclick="closeModal('cookie-banner')" class="flex-1 bg-slate-900 text-white text-xs font-bold py-3 rounded-xl hover:bg-slate-800 transition">Accepteren</button>
+                    <button onclick="closeModal('cookie-banner')" class="text-xs font-bold text-slate-400 px-4">Weigeren</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+        function toggleMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+        // Simple scroll effect for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-lg');
+            } else {
+                header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
